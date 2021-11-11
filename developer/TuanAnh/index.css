@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#modal{
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 700px;
+}
+.modal-content{
+    background-color: rgb(255, 204, 102);;
+    min-width: 650px;
+    height: 700px;
+    position: relative;
+    border-radius: 15px;
+}
+.modal-content span.close{
+    position: absolute;
+    margin-left: 650px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.modal-content span.close:hover,
+.modal-content span.close:focus {
+    color: red;
+    cursor: pointer;
+
+}
+
+h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+table{
+    background-color: rgba(255, 255, 255, 0.87);
+    margin: 0 auto;
+    width: 650px;
+    max-height: 700px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th{
+    font-family: 'Lobster', cursive;
+    padding-bottom: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+.rank{
+    text-align: center;
+}
+.rank img{
+    width: 50px;
+}
+.profile{
+    padding-left: 15px;
+    display: flex;
+}
+.avatar{
+    margin-top: 10px;
+   width: 40px; 
+   border-radius: 30px;
+}
+.name{
+    font-family: 'Architects Daughter', cursive;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.point{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.point img{
+    height: 25px;
+    width: 35px;
+    padding-left: 5px;
+}
